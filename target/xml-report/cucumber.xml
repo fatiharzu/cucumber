@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="2.119">
-    <testcase classname="database features" name="TC01_read_customer_information" time="1.921">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="21.711">
+    <testcase classname="grid_feature" name="TC_01_Testing_On_Chrome" time="10.904">
         <system-out>
-            <![CDATA[Given user connects to the database.........................................passed
-And user gets the "*" from "tp_customer" table..............................passed
-And user reads all of the "ssn" column data.................................passed
+            <![CDATA[Given user is on the application_url with chrome............................passed
+Then verify the title of the page is GMIBANK................................passed
+Then close the remote driver................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="grid_feature" name="TC_02_Testing_On_Firefox" time="10.564">
+        <system-out>
+            <![CDATA[Given user is on the application_url with firefox...........................passed
+Then verify the title of the page is GMIBANK................................passed
+Then close the remote driver................................................passed
 ]]>
         </system-out>
     </testcase>

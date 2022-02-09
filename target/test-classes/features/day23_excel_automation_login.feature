@@ -7,7 +7,7 @@ Feature: login_feature
     Then close the application
 
 # Doing a codeless framework
-  #Because I created enoigh resuable  step definitions
+  #Because I created enough reusable  step definitions
 #  @employee_login
 #    Scenario: TC_02_employee_login
 #      Given user login with excel as "employee"

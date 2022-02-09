@@ -4,6 +4,7 @@ pages\LoginPage.class
 utilities\ReusableMethods$1.class
 pages\RegisterPage.class
 utilities\ConfigurationReader.class
+runners\DBRunner.class
 utilities\Driver$1.class
 stepdefinitions\UserCreationStepDefs.class
 pages\GooglePage.class
@@ -12,6 +13,7 @@ stepdefinitions\ExcelStepDefs.class
 runners\SmokeTestRunner.class
 Hooks\Hooks.class
 runners\RegressionTestRunner.class
+stepdefinitions\DatabaseStepDefs.class
 utilities\ReusableMethods.class
 utilities\ReusableMethods$2.class
 runners\Runner.class
@@ -22,5 +24,6 @@ stepdefinitions\RegisterStepDefs.class
 stepdefinitions\ReusableStepDefs.class
 stepdefinitions\LoginStepDef.class
 runners\FailedScenarioRunner.class
+utilities\DBUtils.class
 pages\UserManagementPage.class
 stepdefinitions\GoogleStepDefs.class

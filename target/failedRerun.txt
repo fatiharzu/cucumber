@@ -1,1 +1,0 @@
-file:src/test/resources/features/day20_user_money_transfer.feature:21
